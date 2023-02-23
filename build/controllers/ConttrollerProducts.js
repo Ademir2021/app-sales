@@ -13,7 +13,7 @@ exports.ConttrollersProducts = exports.client = void 0;
 const Client = require('pg').Client;
 const config = require('../../.env');
 exports.client = new Client(config.pg);
-exports.client.connect();
+exports.client.connect;
 class ConttrollersProducts {
     index(request, response) {
         return __awaiter(this, void 0, void 0, function* () {

@@ -5,8 +5,8 @@ const config = {
         host: "ec2-3-217-113-25.compute-1.amazonaws.com",
         port: "5432",
         database: "d7skldmpo5suds",
-        sslmode:"require"
-    },
+        sslmode: "require"
+    }
 };
 
 module.exports = config;

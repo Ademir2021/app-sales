@@ -3,7 +3,7 @@ const Client = require('pg').Client;
 const config  = require ('../../.env')
 export const client = new Client(config.pg);
 
-client.connect()
+client.connect
 
 export class ConttrollersProducts{
 
