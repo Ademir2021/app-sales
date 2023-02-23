@@ -41,3 +41,4 @@
 - `git add .`
 - `git commit -am "make it better"`
 - `git push heroku master`
+- logs da aplicação: `heroku logs -t`
