@@ -1,7 +1,12 @@
 import { Request, Response } from "express"
 const Client = require('pg').Client;
-const config  = require ('../../.env')
-export const client = new Client(config.pg);
+//const config  = require ('../../.env')
+export const client = new Client({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+      rejectUnauthorized: false
+    }
+  });
 
 client.connect
 
