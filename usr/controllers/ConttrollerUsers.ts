@@ -14,6 +14,7 @@ export class ConttrollersUSers {
 
     async select(request: Request, response: Response) {
         try {
+            
             let id = 0
             console.log("starting the search !!")
             const resultado = await client.query("SELECT * FROM users WHERE id > '" + id + "'")
@@ -57,4 +58,6 @@ export class ConttrollersUSers {
             console.log("Erro Ocorred")
         }
     };
+
 }
+
