@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 import { client } from "../connect"
-client.connect()
+
 
 export class ConttrollersUSers {
 

@@ -11,7 +11,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ConttrollersUSers = void 0;
 const connect_1 = require("../connect");
-connect_1.client.connect();
 class ConttrollersUSers {
     index(request, response) {
         return __awaiter(this, void 0, void 0, function* () {
